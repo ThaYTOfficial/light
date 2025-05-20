@@ -4,8 +4,6 @@ if [ "$EUID" -ne 0 ]; then
     echo "Please run as root (sudo)"
     exit 1
 fi
-
-# Configuration
 NEW_CPU_NAME="3rd Gen HRYDEN E2980H"
 NEW_VENDOR_NAME="HRYDEN Inc."
 TEMP_DIR=$(mktemp -d)
